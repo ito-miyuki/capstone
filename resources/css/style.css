@@ -1,9 +1,24 @@
 body {
     font-family: Open Sans;
 }
+
 header {
     margin-right: 24px;
+    display: flex;
+    justify-content: space-between;
 }
+
+h3 {
+    font-weight: bold;
+}
+.colmar-academy {
+    display: flex;
+}
+
+.academy-grey {
+    color: darkgrey;
+}
+
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -78,7 +93,9 @@ nav li {
 
 .orientation,
 .campus,
-.guest-lecture {
+.guest-lecture,
+.fisma,
+.now-then {
     border: solid 1px gray;
     display: flex;
     align-items: center;
@@ -86,7 +103,7 @@ nav li {
 }
 
 .guest-lecture {
-    background-color: gray;
+    background-color: rgb(195, 192, 192);
 }
 .info-right-pic {
     width: 35%;
@@ -126,6 +143,7 @@ nav li {
 .courses-title {
     text-align: center;
     width: 100%;
+    margin: 32px auto;
 }
 
 .courses-details {
@@ -134,4 +152,54 @@ nav li {
 
 .courses-margin {
     margin: 8px auto;
+}
+
+.container-thesis {
+    display: flex;
+    /* align-items: center; */
+    padding: 32px 24px;
+    height: 100%;
+}
+
+.video-thesis {
+    margin: 0 24px 24px 24px;
+}
+
+video {
+    width: 100%;
+}
+
+
+.container-thesis-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.container-thesis-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    height: 100%;
+}
+
+.thesis-title {
+    text-align: center;
+    width: 100%;
+}
+
+.fisma,
+.now-then {
+    border: solid 1px gray;
+    margin-bottom: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    margin: 16px 16px auto 24px;
 }

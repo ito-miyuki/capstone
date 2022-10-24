@@ -11,6 +11,7 @@ header {
 h3 {
     font-weight: bold;
 }
+
 .colmar-academy {
     display: flex;
 }
@@ -202,4 +203,62 @@ footer {
 
 .footer-text {
     margin: 16px 16px auto 24px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        display: block;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .container-hero {
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .container-information {
+        flex-direction: column;
+    }
+
+    .learn-something {
+        width: 100%;
+        margin: auto;
+        height: 100%;
+    }
+
+    .container-information-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-information-right {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-thesis {
+        flex-direction: column;
+    }
+
+    .container-thesis-right {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-thesis-left {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-details {
+        text-align: left;
+        padding: 2px;
+        row-gap: 8px;
+    }
 }
